@@ -1,4 +1,4 @@
-# Docker Getting Started Workshop
+# Docker To-do App
 
 This repo documents my work through Docker's official [Getting Started Workshop](https://docs.docker.com/get-started/workshop/). The workshop covers containerizing an application, persisting data, using bind mounts for development, connecting multiple containers, and managing everything with Compose.
 
@@ -66,7 +66,7 @@ Each instruction adds a layer to the image, and Docker caches each layer individ
 
 ## My Learning & Takeaways
 
-## Key Takeaways
+### Key Takeaways
 
 Working through this workshop changed how I think about what it means to "run an application." Before Docker, running something locally meant installing dependencies directly on your machine and hoping the environment matched everywhere else. Containers replace that assumption entirely: the environment is defined in code, ships with the app, and runs the same way regardless of what is on the host.
 
